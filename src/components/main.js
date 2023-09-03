@@ -9,6 +9,11 @@ export default function Main() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <br/>
+      <h1 className="main--title">Reasons I'm excited to learn React</h1>
+      <ul className="main--facts">
+        <li>It's so popular library, so I'll be able to fit with the cool kids!</li>
+      </ul>
     </main>
   );
 }
