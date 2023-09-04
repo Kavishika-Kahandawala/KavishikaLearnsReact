@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import "./main.css";
+import { vercelAnalytics } from '@vercel/analytics';
 
 // components imports
 import NavBar from "./components/navbar";
@@ -19,3 +20,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+vercelAnalytics();
