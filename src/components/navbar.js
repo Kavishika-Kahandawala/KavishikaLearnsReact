@@ -1,5 +1,5 @@
 import Logo from "../images/logo.svg";
-
+// 
 export default function NavBar(){
     return <nav className="main-nav">
         <img className="main-nav--icon" src={Logo} alt="React Logo"/>
